@@ -1,20 +1,20 @@
-#Human Whole Exome Sequencing Variant Calling using GATK Best Practices
+# Human Whole Exome Sequencing Variant Calling using GATK Best Practices
 
-##Project
+## Project
 
 Germline Variant Discovery from Human Exome Sequencing Data using GATK
 
-##Overview
+## Overview
 
 This project demonstrates a complete germline variant calling workflow using Human Whole Exome Sequencing (WES) data and GATK Best Practices.
 
 This includes quality control, alignment to the human reference genome (GRCh38), duplicate removal, base quality score recalibration (BQSR), variant calling, variant filtering, and generation of high-confidence SNPs and INDELs.
 
-##Objective
+## Objective
 
 To identify high-confidence germline variants from human exome sequencing data using a reproducible bioinformatics pipeline.
 
-##Tools
+## Tools
 
 Linux
 FastQC
@@ -24,7 +24,7 @@ SAMtools
 bcftools
 gatk4
 
-##Dataset
+## Dataset
 
 reference:
 GRCh38
@@ -33,7 +33,7 @@ Known Variant Sites:
 Homo_sapiens_assembly38.dbsnp138.vcf
 Homo_sapiens_assembly38.known_indels.vcf.gz
 
-##sample
+## sample
 
 BioProject:
 PRJNA59853
@@ -47,7 +47,7 @@ Illumina HiSeq 2000
 Layout:
 Paired-End
 
-##Workflow
+## Workflow
 
 FASTQ
 ↓
@@ -90,7 +90,7 @@ PASS Variant Selection
 - FS > 200.0
 - SOR > 10.0
 
-##Results
+## Results
 
 Raw Variants identified: 18201
 
@@ -106,7 +106,7 @@ Total High-Confidence Variants: 17264
 
 Total result 94.85% varients retention rate.
 
-##Author
+## Author
 
 Sheetal
 
