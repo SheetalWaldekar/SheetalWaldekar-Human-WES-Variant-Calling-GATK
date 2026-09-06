@@ -92,15 +92,13 @@ PASS Variant Selection
 
 ## Results
 
-Raw Variants identified: 18201
-
-SNPs: 17112
-INDELs: 1089
+- Raw Variants identified: 18201
+- SNPs: 17112
+- INDELs: 1089
 
 Afterapplying GATK hard-filtering criteria:
-
-PASS SNPs: 16176
-PASS INDELS: 1088
+- PASS SNPs: 16176
+- PASS INDELS: 1088
 
 Total High-Confidence Variants: 17264
 
