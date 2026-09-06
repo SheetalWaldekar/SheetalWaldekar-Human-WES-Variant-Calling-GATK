@@ -16,13 +16,13 @@ To identify high-confidence germline variants from human exome sequencing data u
 
 ## Tools
 
- Linux
- FastQC
- fastp
- BWA-MEM
- SAMtools
- bcftools
- gatk4
+- Linux
+- FastQC
+- fastp
+- BWA-MEM
+- SAMtools
+- bcftools
+- gatk4
 
 ## Dataset
 
